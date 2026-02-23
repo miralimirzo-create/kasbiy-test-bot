@@ -5,7 +5,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import CommandStart
 
 
-TOKEN = os.getenv "8287939968:AAHwXfaBdnxbCYaKII5XPUETDkHxwlmdABg"
+TOKEN = os.getenv ("8287939968:AAHwXfaBdnxbCYaKII5XPUETDkHxwlmdABg)"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
